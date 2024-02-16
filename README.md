@@ -12,7 +12,7 @@ Push empty folder :
 find . -type d -empty -exec touch {}/.gitkeep \;
 ```
 
-Delete empty folder : 
+Then delete .gitkeep files : 
 ```bash 
 find . -name ".gitkeep" -type f -delete
 ```
